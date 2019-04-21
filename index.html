@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>RPG</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	 <!-- <script src="assets/javascript/jquery-2.2.3.js"></script>  -->
+     <!-- Reset CSS -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Media Queries -->
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+<body>
+    <div id="body"></div>
+	<div class="wrapper">
+		<!-- Dune Logo -->
+		<header>
+            <img id="logeDune" src="assets/images/Frank_Herbert's_Dune_logo.png">
+            <!-- <img id="topInstructions.JPG" src="assets/images/ChooseSides2.PNG"> -->
+        </header>
+        <div class="container">
+            <!-- <div id="topInstructions"></div> -->
+                <div class="row">
+                  <div class="col">
+                  <!-- <button type="button" class="btn btn-warning">Click To Start</button> -->
+		<!-- Character Selection -->
+		<div id="introBox"></div>
+                  </div>
+                  <div class="col">
+                 <div id="startBox">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                 
+                  </div>
+                  <div class="col">
+                <div class="select" id="selectStartBar">  <div class="col">
+                        <div id="oneAtreidesSelectImg" class="box overlay blue"></div>
+                        </div>
+                        <div class="col"class="box overlay red"></div>>
+                        <div id="twoHarkonnenSelectImg"></div></div>
+
+                </div>
+                
+
+                  </div>
+                  <div class="col">
+                         <button type="button" class="btn btn-danger">Restart</button>
+                         <div id="target">
+                                Click here
+                              </div>
+                              <div id="other">
+                                Trigger the handler
+                              </div>
+                  </div>
+                </div>
+              </div>
+       
+        
+    <!-- 
+        ><img src="assets/images/houseAtreidesBannerGoTStyle.jpg">
+<img src="assets/images/houseHarkonnenBullBanner.jpg">
+
+
+        <img src="assets/images/paul.PNG">
+        <img src="assets/images/baron.png">
+        <img src="assets/images/feyd.PNG">
+        <img src="assets/images/Gurney.PNG"> -->
+
+        </div>
+	</div>
+	<!-- Custom JS -->
+    <script src="assets/javascript/intro.js"></script>
+    <script src="assets/javascript/start.js"></script>
+    <script src="assets/javascript/combat.js"></script>
+
+</body>
+</html>
+
+<!--container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }-->
